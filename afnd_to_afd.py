@@ -45,9 +45,3 @@ while(x<len(fila)):
     print(fila[x])
     x+=1
 
-# afnd1 = [[0, [0,1], 0], [1, 0, 0]]
-# res = afnd_to_afd(afnd1)
-# for x in res:
-#     for y in res[0]:
-#         print(res[x][y])
-

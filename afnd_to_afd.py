@@ -28,7 +28,7 @@ def afnd_to_afd(AFND):
         j=0
         while(j<len(AFD[0])):
             if not isInSetList(AFD[i][j], existentes):
-                existentes.append(AFD[i][j].copy())
+                existentes.append(AFD[i][j])
                 AFD.append(crearFila(AFD[i][j], AFND))
             j+=1
         i+=1
@@ -44,4 +44,3 @@ x=0
 while(x<len(fila)):  
     print(fila[x])
     x+=1
-

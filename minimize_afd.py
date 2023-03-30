@@ -7,8 +7,3 @@ F_C =  set(range(0,len(AFD))) - F
 pi0 = []
 pi0.append(F)
 pi0.append(F_C)
-
-
-
-#Obtener los estados finales
-
